@@ -1,0 +1,542 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.promo{
+    min-height: 800px;
+    background: url('../img/Main-bg.jpg')center center/cover no-repeat;
+    padding: 39px 0 62px 0
+}
+.logo{
+    display: block;
+    margin: 0 auto;
+}
+.logo_text{
+    margin-top: 14px;
+    margin-bottom: 53px;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    text-transform: uppercase;
+}
+.title{
+    color: #f9bf3b;
+    font-size: 41px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.easy_wrapper{
+    margin-top: 21px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.promo_line{
+    width: 292px;
+    height: 2px;
+    background-color: white;
+}
+.promo_header{
+    color: #ffffff;
+    font-size: 80px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    text-transform: uppercase;
+}
+.title.bottom{
+    margin-top: 30px;
+}
+.promo_descr{
+    color: #ffffff;
+    font-size: 21px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 23px;
+    
+}
+.promo_descr span{
+    color: #f9bf3b;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+.promo_btn{
+    display: block;
+    margin: 0 auto;
+    margin-top: 73px;
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.22);
+    color: #ffffff;
+    font-size: 21px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    /* Style for "Rounded Re" */
+    width: 313px;
+    height: 72px;
+    box-shadow: inset 0 0px 0 rgba(0, 0, 0, 0.18);
+    border: 4px solid rgba(0, 0, 0, 0.23);
+    background-image: linear-gradient(to top, #2798b9 0%, #3ab6da 100%);
+}
+.more{
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 73px;
+}
+.arrow{
+    display: block;
+    margin: 0 auto;
+    margin-top: 13px;
+}
+.intensive{
+    padding: 85px 0 75px 0;
+    min-height: 640px;
+    background-color: #efefef;
+}
+.intensive_header{
+    color: #252525;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 12px;
+    text-align: center;
+    text-transform: uppercase;
+}   
+.intensive_item{
+    width: 217px;
+    height: 4px;
+    background-color: #f9bf3b;
+    display: block;
+    margin: 0 auto;
+    margin-top: 18px;
+}
+.intensive_subheader{
+    color: #4a4a4a;
+    font-family: Roboto;
+    font-size: 23px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 17px;
+}
+.intensive_wrapper{
+    margin-top: 41px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}   
+.intensive_items{
+    width: 342px;
+}
+.intensive_text{
+    margin-top: 33px;
+    color: #4a4a4a;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 21px;
+    text-align: center;
+}
+.intensive_img{
+    width: 100%;
+}
+.optimization{
+    min-height: 550px;
+    padding: 102px 0 107px 0;
+}
+.optimization_decr{
+    margin-left: 391px;
+    color: #4a4a4a;
+    font-size: 17px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 27px;
+    margin-top: 25px;
+}
+.optimization_decr .bold{
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+.optimization_header{
+    color: #299cbd;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 12px;
+    margin-left: 391px;
+    text-transform: uppercase;
+}
+.optimixation_img{
+    position: absolute;
+    top: -53px;
+    left: -240px;
+    z-index: -1;
+}
+.training{
+    background: url('../img/Ending_bg.jpg')center center/cover no-repeat;
+    min-height: 447px;
+    padding: 86px 0 79px 0;
+}
+.training_header{
+    color: #efefef;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 12px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.training_item{
+    margin: 0 auto;
+    margin-top: 23px;
+    width: 217px;
+    height: 4px;
+    background-color: #f9bf3b
+}
+.training_wrapper{
+    margin-top: 41px;
+    display: flex;
+    justify-content: space-around;
+}
+.training_items{
+    width: 204px;
+}
+.trainig_circle{
+    width: 115px;
+    height: 115px;
+    background-color: #b4e2ff;
+    border-radius: 100%;
+}
+.trainig_circle{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin: 0 auto;
+}
+.trainig_decr{
+    margin-top: 25px;
+    color: #efefef;
+    font-size: 17px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 20px;
+    text-align: center;
+    align-items:center;
+}
+.prize{
+    min-height: 628px;
+    background-color: #efefef;
+    padding: 86px 0;
+}
+.prize-item{
+    display: block;
+    margin: 0 auto;
+}
+.prize_descr{
+    color: #252525;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 43px;
+    text-align: center;
+    margin-top: 42px;
+}
+.prize_btn{
+    margin-top: 53px;
+}
+.webinar{
+    min-height: 515px;
+    padding: 89px 0 64px 0;
+}
+.webinar_item{
+    display: block;
+    margin: 0 auto;
+}
+.webinar_first{
+    color: #252525;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 37px;
+}
+.webinar_data{
+    margin-top: 30px;
+    color: #299cbd;
+    font-size: 36px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 12px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.webinar_recording{
+    color: #4a4a4a;
+    font-size: 23px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 25px;
+}
+footer {
+    min-height: 166px;
+    background-color: #1a1a1a;
+    padding: 61px 0 69px 0;
+}
+.footer_links{
+    text-align: center;
+    margin: 0 auto;
+}
+.footer_link{
+    color: #888888;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 21px;
+    text-align: center;
+    text-decoration: underline;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+.footer_number{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+.link_number{
+    color: #888888;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-decoration: none;
+}
+
+@media (max-width: 1200px){
+    .container{
+        max-width: 960px;
+    }
+    .promo_header{
+        font-size: 50px;
+    }
+    .title{
+        font-size: 36px;
+    }
+    .optimization_header {
+        font-size: 20px;
+    }
+    .optimization__descr{
+        font-size: 14px;
+    }
+}
+@media (max-width: 992px){
+    .container{
+        max-width: 720px;
+    }
+    .promo_header{
+        font-size: 36px;
+    }
+    .title{
+        font-size: 28px;
+    }
+    .promo_line{
+        width: 200px;
+    }
+    .optimization_header {
+        font-size: 13px;
+    }
+    .hiden{
+        display: none;
+    }
+    .prize_descr {
+        font-size: 21px;
+    }
+}
+@media (max-width: 768px){
+    .container{
+        max-width: 540px;
+    }
+    .promo_header{
+        font-size: 30px;
+    }
+    .promo_line{
+        width: 150px;
+    }
+    .title{
+        font-size: 23px;
+    }
+    .promo_descr{
+        font-size: 18px;
+    }
+    .intensive_header {
+        font-size: 25px;
+    }
+    .intensive_wrapper{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .intensive_items {
+        margin-top: 15px;
+    }
+    .optimization{
+        min-height: 300px;
+        padding: 32px 0 32px 0;
+    }
+    .optimization_header {
+        margin-left: 0px;
+        text-align: center;
+        font-size: 20px;
+    }
+    .optimization_decr {
+        margin-left: 1px;
+        text-align: center;
+    }
+    .optimixation_img{
+        display: none;
+    }
+    .training_header{
+        font-size: 23px;
+    }
+    .training_wrapper{
+        flex-wrap: wrap;
+    }
+    .training_items{
+        margin: 8px;
+    }
+    .webinar_first{
+        font-size: 22px;
+    }
+    .webinar_data{
+        font-size: 30px;
+    }
+}
+
+
+@media (max-width: 576px){
+    .container{
+        max-width: 100%;
+        padding: 0 10px;
+    }
+    .promo{
+        min-height: 586px;
+        padding: 22px 0 0px 0;;
+    }
+    .logo_rext{
+        margin-bottom: 23px;
+    }
+    .promo_header{
+        font-size: 22px;
+    }
+    .promo_line{
+        width: 70px;
+    }
+    .promo_btn{
+        width: 300px;
+        margin-top: 26px;
+    }
+    .title{
+        font-size: 15px;
+    }
+    .promo_descr{
+        display: none;
+    }
+    .intensive {
+        padding: 40px 0 40px 0;
+    }
+    .intensive_header {
+        font-size: 15px;
+    }
+    .intensive_subheader {
+        font-size: 15px;
+    }
+    .intensive_items{
+        width: 100%;
+    }
+    .optimization_header {
+        font-size: 12px;
+    }
+    .optimization_decr {
+        font-size: 13px;
+    }
+    .training_header {
+        font-size: 13px;
+    }
+    .training { 
+        padding: 29px 0 21px 0;
+    }
+    .prize {
+        min-height: 447px;
+        padding: 17px 0;
+    }
+    .prize_descr {
+        font-size: 13px;
+        line-height: 25px;
+    }
+    .webinar {
+        min-height: 515px;
+        padding: 29px 0 29px 0;
+        min-height: 370px;
+    }
+    .webinar_first {
+        font-size: 14px;
+    }
+    .webinar_data {
+        font-size: 18px;
+    }
+    .webinar_recording {
+        color: #4a4a4a;
+        font-size: 18px;
+    }
+}
